@@ -9,7 +9,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:get_it/get_it.dart';
 
 class Application {
-  static Router router;
+  static FluroRouter router;
   static GlobalKey<NavigatorState> globalKey = GlobalKey();
   static SharedPreferences sp;
   static double screenWidth;

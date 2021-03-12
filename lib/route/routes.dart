@@ -12,7 +12,7 @@ class Routes {
 //  static String CLIENT = '/client';
 //  static String SETTING = '/setting';
 
-  static void configureRoutes(Router router) {
+  static void configureRoutes(FluroRouter router) {
     router.notFoundHandler = new Handler(
         handlerFunc: (BuildContext context, Map<String, List<String>> params) {
       return LoginPage();

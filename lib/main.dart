@@ -12,7 +12,7 @@ import 'package:flutter_mvp/route/routes.dart';
 import 'package:flutter_mvp/widget/tab_navigator.dart';
 
 void main() {
- Router router = Router();
+  FluroRouter router = FluroRouter();
  Routes.configureRoutes(router);
  Application.router = router;
  Application.setupLocator();
